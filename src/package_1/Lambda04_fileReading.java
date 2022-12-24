@@ -37,8 +37,8 @@ public class Lambda04_fileReading {
         );
 
 
-        // Task 3: print all the words distincting the same words according to the natural order
-        System.out.println("\nTask 3: print all the words distincting the same words according to the natural order");
+        // Task 3: distinct same words and print all the words in natural order
+        System.out.println("\nTask 3: distinct same words and print all the words in natural order");
         Files.lines(path)
                 .map(String::toLowerCase)
                 .map(t -> t.split(" "))
